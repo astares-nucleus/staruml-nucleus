@@ -23,17 +23,23 @@ Download WhiteStar UML for Windows 64 bit:
 
 - [WhiteStarUMLSetup-5.9.1.exe](https://sourceforge.net/projects/whitestaruml/files/WhiteStarUMLSetup-5.9.1.exe/download)
 
-and follow the steps to install
+and execute the downloaded **WhiteStarUMLSetup-5.9.1.exe** file.
+
+Now follow the single steps to install the tool:
 
 #### Installation - Welcome
 
+![Installation - Welcome](images/install_whitestart001.png "Installation - Welcome")
+
 #### Installation - Setup Type
+
+![Installation - Setup Type](images/install_whitestart002.png "Installation - Setup Type")
 
 #### Installation - Installation folder
 
 By default WhiteStarUML installation wizard suggests to install the program into the program folder of your Windows system. 
 
-
+![Installation - Default Installation folder](images/install_whitestart003.png "Installation - Default Installation folder")
 
 Unfortunately with this default it is not possible to modify and add files within the WhiteStarUML installation afterwards without specific administrative rights. Therefore we will install the tool into a custom folder - so please ignore this default installation path and install the tool into the following path
 
@@ -41,9 +47,23 @@ Unfortunately with this default it is not possible to modify and add files withi
 C:\astares\tools\WhiteStarUML
 ```
 
-![alt text](images/install_whitestart004a.png "Custom Installation Folder")
+![Installation - Custom Installation folder](images/install_whitestart004.png "Installation - Custom Installation folder")
 
-#### Installation - Setup Type
+#### Installation - Shortcuts
+
+![Installation - Shortcuts](images/install_whitestart005.png "Installation - Shortcuts")
+
+#### Installation - Completion
+
+![Installation - Completion](images/install_whitestart006.png "Installation - Completion")
+
+The installer will now copy the files of WhiteStarUML installation to your hard disk:
+
+![Installation - Copying](images/install_whitestart007.png "Installation - Copying")
+
+When the setup is done you can click on **Finish** and run the UML tool 
+
+![Installation - Finalize](images/install_whitestart008.png "Installation - Finalize")
 
 
 ## Installation of staruml-nucleus extension
