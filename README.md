@@ -23,15 +23,36 @@ Download WhiteStar UML for Windows 64 bit:
 
 - [WhiteStarUMLSetup-5.9.1.exe](https://sourceforge.net/projects/whitestaruml/files/WhiteStarUMLSetup-5.9.1.exe/download)
 
-and 
+and follow the steps to install
 
-Clone this project folder into your WhiteStar UML **modules** folder which is part of the installation
+#### Installation - Welcome
+
+#### Installation - Setup Type
+
+#### Installation - Installation folder
+
+By default WhiteStarUML installation wizard suggests to install the program into the program folder of your Windows system. 
+
+
+
+Unfortunately with this default it is not possible to modify and add files within the WhiteStarUML installation afterwards without specific administrative rights. Therefore we will install the tool into a custom folder - so please ignore this default installation path and install the tool into the following path
+
+```
+C:\astares\tools\WhiteStarUML
+```
+
+![alt text](images/install_whitestart004.png "Custom Installation Folder")
+
+#### Installation - Setup Type
+
+
+## Installation of staruml-nucleus extension
+
+Clone this project folder into your WhiteStarUML **modules** folder which is part of the WhiteStarUML installation
 
 ```
 C:\astares\tools\WhiteStarUML\modules
 ```
-
-## Installation of staruml-nucleus extension
 
 # Quick Start
 
