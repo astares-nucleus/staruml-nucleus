@@ -1,5 +1,5 @@
 # staruml-nucleus
-(White)StarUML extensions for Nucleus
+(White)StarUML extensions for Astares Nucleus
 
 # Info
 
