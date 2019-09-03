@@ -1,6 +1,9 @@
 # staruml-nucleus
 (White)StarUML extensions for Nucleus
 
+# Info
+
+This project includes UML extensions for the free WhiteStarUML Tool to allow easy working with the Astares Nucleus project. 
 
 # Installation
 
@@ -14,7 +17,7 @@ C:\astares\tools
 
 Make sure you name the root directory **astares** with a subdirectory **tools** as this used later for various components to work.
 
-### 2. Download and install WhiteStar UML
+### 2. Download and install WhiteStar UML for Windows
 
 Download WhiteStar UML for Windows 64 bit:
 
