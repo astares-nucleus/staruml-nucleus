@@ -71,8 +71,13 @@ When the setup is done you can click on **Finish** and run the UML tool
 Clone this project folder into your WhiteStarUML **modules** folder which is part of the WhiteStarUML installation
 
 ```
-C:\astares\tools\WhiteStarUML\modules
+cd C:\astares\tools\WhiteStarUML\modules
+git clone git clone https://github.com/astares-nucleus/staruml-nucleus.git
 ```
+
+![Installation - Clone](images/install_staruml_nucleus001.png "Installation - Clone")
+
+Now you can restart WhiteStarUML and use the Nucleus profile.
 
 # Quick Start
 
