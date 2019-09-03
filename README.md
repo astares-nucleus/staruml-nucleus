@@ -41,7 +41,7 @@ Unfortunately with this default it is not possible to modify and add files withi
 C:\astares\tools\WhiteStarUML
 ```
 
-![alt text](images/install_whitestart004.png "Custom Installation Folder")
+![alt text](images/install_whitestart004a.png "Custom Installation Folder")
 
 #### Installation - Setup Type
 
