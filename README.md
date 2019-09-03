@@ -3,7 +3,7 @@
 
 # Info
 
-This project includes UML extensions for the free WhiteStarUML Tool to allow easy working with the Astares Nucleus project. 
+This project includes UML extensions for the free WhiteStarUML Tool to allow easy working with the Astares Nucleus project. It follows the [StarUML developers guide for UML Profiles](http://staruml.sourceforge.net/docs/developer-guide(en)/ch07.html). 
 
 # Installation
 

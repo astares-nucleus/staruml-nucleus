@@ -15,7 +15,7 @@
 				<SUBSYSTEM name="Nucleus" stereotypeProfile="nucleus" stereotypeName="environment">
 					<MODEL name="Nucleus Core" stereotypeProfile="nucleus" stereotypeName="model">			
 						<PACKAGE name="Nucleus-Core" stereotypeProfile="nucleus" stereotypeName="package">
-							<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
+							<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusClassDiagram" name="Main"/>
 							<PACKAGE name="Base" stereotypeProfile="nucleus" stereotypeName="category">							
 							</PACKAGE>
 						</PACKAGE>
