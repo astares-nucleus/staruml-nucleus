@@ -12,7 +12,11 @@
     </IMPORTPROFILES>
     <MODELSTRUCTURE>
       <MODEL name="Nucleus" stereotypeProfile="nucleus" stereotypeName="model">
-        <DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
+		<PACKAGE name="MyApp-Core" stereotypeProfile="nucleus" stereotypeName="package">
+			<PACKAGE name="Base" stereotypeProfile="nucleus" stereotypeName="category">
+				<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
+			</PACKAGE>
+		</PACKAGE>
       </MODEL>
     </MODELSTRUCTURE>
   </BODY>
