@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<APPROACH version="1.0"> 
+  <HEADER>
+    <NAME>Astares</NAME>
+    <DISPLAYNAME>Astares Approach</DISPLAYNAME>
+    <DESCRIPTION>Approach for Astares Nucleus</DESCRIPTION>
+  </HEADER>
+  <BODY>
+    <IMPORTPROFILES>
+		<PROFILE>pharo</PROFILE>
+		<PROFILE>nucleus</PROFILE>
+    </IMPORTPROFILES>
+    <MODELSTRUCTURE>
+      <MODEL name="Use Case View">
+        <DIAGRAM type="Class" name="Main"/>
+      </MODEL>
+    </MODELSTRUCTURE>
+  </BODY>
+</APPROACH>
+

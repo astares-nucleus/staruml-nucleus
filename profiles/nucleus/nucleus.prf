@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PROFILE version="1.0">
 	<HEADER>
-		<NAME>Astares Nucleus</NAME>
-		<DISPLAYNAME>Astares Nucleus Modeling</DISPLAYNAME>
+		<NAME>nucleus</NAME>
+		<DISPLAYNAME>Astares Nucleus</DISPLAYNAME>
 		<DESCRIPTION>Astares Nucleus Modeling Profile</DESCRIPTION>
 		<AUTOINCLUDE>False</AUTOINCLUDE>
 	</HEADER>

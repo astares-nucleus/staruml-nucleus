@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADDIN>
+    <NAME>Astares AddIn</NAME>
+    <DISPLAYNAME>Astares AddIn</DISPLAYNAME>
+    <COMPANY>Astares</COMPANY>
+    <COPYRIGHT>Copyright 2019 astares.com. All rights reserved.</COPYRIGHT>
+    <ICONFILE>nucleus.ico</ICONFILE>
+    <ISACTIVE>True</ISACTIVE>
+    <MENUFILE>AstaresAddIn.mnu</MENUFILE>
+    <VERSION>1.0.0.0</VERSION>
+</ADDIN>
