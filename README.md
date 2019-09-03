@@ -12,7 +12,7 @@
 C:\astares\tools
 ```
 
-Make sure you name the root directory **astares** and **tools** as this used later for various components to work.
+Make sure you name the root directory **astares** with a subdirectory **tools** as this used later for various components to work.
 
 ### 2. Download and install WhiteStar UML
 
