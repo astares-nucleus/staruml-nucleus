@@ -11,8 +11,8 @@
 		<PROFILE>nucleus</PROFILE>
     </IMPORTPROFILES>
     <MODELSTRUCTURE>
-      <MODEL name="Use Case View">
-        <DIAGRAM type="Class" name="Main"/>
+      <MODEL name="Nucleus" stereotypeProfile="nucleus" stereotypeName="model">
+        <DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
       </MODEL>
     </MODELSTRUCTURE>
   </BODY>
