@@ -3,11 +3,32 @@
 
 
 # Installation
-Clone this folder into your WhiteStar UML installation folder
+
+## Installation of WhiteStarUML
+
+### 1. Create a local directory for the tools
 
 ```
-C:\Program Files (x86)\WhiteStarUML\modules
+C:\astares\tools
 ```
+
+Make sure you name the root directory **astares** and **tools** as this used later for various components to work.
+
+### 2. Download and install WhiteStar UML
+
+Download WhiteStar UML for Windows 64 bit:
+
+- [WhiteStarUMLSetup-5.9.1.exe](https://sourceforge.net/projects/whitestaruml/files/WhiteStarUMLSetup-5.9.1.exe/download)
+
+and 
+
+Clone this project folder into your WhiteStar UML **modules** folder which is part of the installation
+
+```
+C:\astares\tools\WhiteStarUML\modules
+```
+
+## Installation of WhiteStarUML
 
 # Quick Start
 
