@@ -31,7 +31,7 @@ Clone this project folder into your WhiteStar UML **modules** folder which is pa
 C:\astares\tools\WhiteStarUML\modules
 ```
 
-## Installation of WhiteStarUML
+## Installation of staruml-nucleus extension
 
 # Quick Start
 
