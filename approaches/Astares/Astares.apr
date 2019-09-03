@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <APPROACH version="1.0"> 
-  <HEADER>
-    <NAME>Astares</NAME>
-    <DISPLAYNAME>Astares Approach</DISPLAYNAME>
-    <DESCRIPTION>Approach for Astares Nucleus</DESCRIPTION>
-  </HEADER>
-  <BODY>
-    <IMPORTPROFILES>
-		<PROFILE>pharo</PROFILE>
-		<PROFILE>nucleus</PROFILE>
-    </IMPORTPROFILES>
-    <MODELSTRUCTURE>
-      <MODEL name="Nucleus" stereotypeProfile="nucleus" stereotypeName="model">
-		<PACKAGE name="MyApp-Core" stereotypeProfile="nucleus" stereotypeName="package">
-			<PACKAGE name="Base" stereotypeProfile="nucleus" stereotypeName="category">
-				<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
-			</PACKAGE>
-		</PACKAGE>
-      </MODEL>
-    </MODELSTRUCTURE>
-  </BODY>
+	<HEADER>
+		<NAME>Astares</NAME>
+		<DISPLAYNAME>Astares Approach</DISPLAYNAME>
+		<DESCRIPTION>Approach for Astares Nucleus</DESCRIPTION>
+	</HEADER>
+	<BODY>
+		<IMPORTPROFILES>
+			<PROFILE>pharo</PROFILE>
+			<PROFILE>nucleus</PROFILE>
+		</IMPORTPROFILES>
+		<MODELSTRUCTURE>
+			<MODEL name="Nucleus" stereotypeProfile="nucleus" stereotypeName="universe">
+				<SUBSYSTEM name="Nucleus" stereotypeProfile="nucleus" stereotypeName="environment">
+					<MODEL name="Nucleus Core" stereotypeProfile="nucleus" stereotypeName="model">			
+						<PACKAGE name="Nucleus-Core" stereotypeProfile="nucleus" stereotypeName="package">
+							<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusDomainDiagram" name="Main"/>
+							<PACKAGE name="Base" stereotypeProfile="nucleus" stereotypeName="category">							
+							</PACKAGE>
+						</PACKAGE>
+					</MODEL>
+				</SUBSYSTEM>
+			</MODEL>
+		</MODELSTRUCTURE>
+	</BODY>
 </APPROACH>
 

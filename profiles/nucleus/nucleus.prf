@@ -9,13 +9,32 @@
 	<BODY>
 		<STEREOTYPELIST>
 			<STEREOTYPE>
-				<NAME>facet</NAME>
-				<DESCRIPTION></DESCRIPTION>
+				<NAME>universe</NAME>
+				<DESCRIPTION>A Nucleus universe.</DESCRIPTION>
 				<BASECLASSES>
-					<BASECLASS>UMLClass</BASECLASS>
+					<BASECLASS>UMLModel</BASECLASS>
 				</BASECLASSES>
+				<SMALLICON>nucuniverse.png</SMALLICON>
 			</STEREOTYPE>
 			
+			<STEREOTYPE>
+				<NAME>environment</NAME>
+				<DESCRIPTION>A Nucleus environment.</DESCRIPTION>
+				<BASECLASSES>
+					<BASECLASS>UMLSubsystem</BASECLASS>
+				</BASECLASSES>
+				<SMALLICON>nucenvironment.png</SMALLICON>
+			</STEREOTYPE>
+			
+			<STEREOTYPE>
+				<NAME>model</NAME>
+				<DESCRIPTION>A Nucleus model describes domain and workflows.</DESCRIPTION>
+				<BASECLASSES>
+					<BASECLASS>UMLModel</BASECLASS>
+				</BASECLASSES>
+				<SMALLICON>nucmodel.png</SMALLICON>
+			</STEREOTYPE>
+		
 			<STEREOTYPE>
 				<NAME>package</NAME>
 				<DESCRIPTION></DESCRIPTION>
@@ -32,16 +51,29 @@
 					<BASECLASS>UMLPackage</BASECLASS>
 				</BASECLASSES>
 				<SMALLICON>nuccategory.png</SMALLICON>
-			</STEREOTYPE>			
+			</STEREOTYPE>
+		
+			<STEREOTYPE>
+				<NAME>facet</NAME>
+				<DESCRIPTION></DESCRIPTION>
+				<BASECLASSES>
+					<BASECLASS>UMLClass</BASECLASS>
+				</BASECLASSES>
+				<SMALLICON>nucfacet.png</SMALLICON>
+			</STEREOTYPE>
+			
+			
 			
 			<STEREOTYPE>
-				<NAME>model</NAME>
-				<DESCRIPTION>A Nucleus model describes domain and workflows.</DESCRIPTION>
+				<NAME>category</NAME>
+				<DESCRIPTION></DESCRIPTION>
 				<BASECLASSES>
-					<BASECLASS>UMLModel</BASECLASS>
+					<BASECLASS>UMLPackage</BASECLASS>
 				</BASECLASSES>
-				<SMALLICON>nucmodel.png</SMALLICON>
-			</STEREOTYPE>
+				<SMALLICON>nuccategory.png</SMALLICON>
+			</STEREOTYPE>			
+			
+			
 			
 			 
 		</STEREOTYPELIST>
@@ -93,6 +125,8 @@
 					<PALETTEITEM>Class</PALETTEITEM>
 					<PALETTEITEM>Facet</PALETTEITEM>
 
+					<PALETTEITEM>Generalization</PALETTEITEM>
+					<PALETTEITEM>Association</PALETTEITEM>
 				</PALETTEITEMLIST>
 			</PALETTE>
 		</PALETTELIST>
