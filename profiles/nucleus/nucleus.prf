@@ -82,14 +82,7 @@
 			
 			
 			
-			<STEREOTYPE>
-				<NAME>category</NAME>
-				<DESCRIPTION></DESCRIPTION>
-				<BASECLASSES>
-					<BASECLASS>UMLPackage</BASECLASS>
-				</BASECLASSES>
-				<SMALLICON>nuccategory.png</SMALLICON>
-			</STEREOTYPE>			
+			 			
 			
 			
 			
