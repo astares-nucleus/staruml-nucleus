@@ -8,21 +8,21 @@
 	<BODY>
 		<IMPORTPROFILES>
 			<PROFILE>pharo</PROFILE>
-			<PROFILE>nucleus</PROFILE>
+			<PROFILE>Nucleus</PROFILE>
 		</IMPORTPROFILES>
 		<MODELSTRUCTURE>
-			<MODEL name="Nucleus" stereotypeProfile="nucleus" stereotypeName="universe">
-			    <SUBSYSTEM name="Pharo" stereotypeProfile="nucleus" stereotypeName="environment">
-					<MODEL name="Pharo Image" stereotypeProfile="nucleus" stereotypeName="model">
+			<MODEL name="Nucleus" stereotypeProfile="Nucleus" stereotypeName="universe">
+			    <SUBSYSTEM name="Pharo" stereotypeProfile="Nucleus" stereotypeName="environment">
+					<MODEL name="Pharo Image" stereotypeProfile="Nucleus" stereotypeName="model">
 						<PACKAGE name="Pharo-Package" stereotypeProfile="pharo" stereotypeName="package">
 						</PACKAGE>
 					</MODEL>
 				</SUBSYSTEM>
-				<SUBSYSTEM name="Nucleus" stereotypeProfile="nucleus" stereotypeName="environment">
-					<MODEL name="Nucleus Core" stereotypeProfile="nucleus" stereotypeName="model">			
-						<PACKAGE name="Nucleus-App" stereotypeProfile="nucleus" stereotypeName="package">
-							<DIAGRAM type="class" diagramTypeProfile="nucleus" diagramTypeName="NucleusClassDiagram" name="Main"/>
-							<PACKAGE name="Base" stereotypeProfile="nucleus" stereotypeName="category">							
+				<SUBSYSTEM name="Nucleus" stereotypeProfile="Nucleus" stereotypeName="environment">
+					<MODEL name="Nucleus App" stereotypeProfile="Nucleus" stereotypeName="model">			
+						<PACKAGE name="Nucleus-App" stereotypeProfile="Nucleus" stereotypeName="package">
+							<DIAGRAM type="class" diagramTypeProfile="Nucleus" diagramTypeName="NucleusClassDiagram" name="Main"/>
+							<PACKAGE name="Base" stereotypeProfile="Nucleus" stereotypeName="category">							
 							</PACKAGE>
 						</PACKAGE>
 					</MODEL>

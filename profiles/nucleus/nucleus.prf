@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PROFILE version="1.0">
 	<HEADER>
-		<NAME>nucleus</NAME>
+		<NAME>Nucleus</NAME>
 		<DISPLAYNAME>Astares Nucleus</DISPLAYNAME>
-		<DESCRIPTION>Astares Nucleus Modeling Profile</DESCRIPTION>
+		<DESCRIPTION>Astares Nucleus Modeling Profile - (c) 2019 by Astares.com</DESCRIPTION>
 		<AUTOINCLUDE>False</AUTOINCLUDE>
 	</HEADER>
 	<BODY>
+		<!-- **************************************************************************************************** -->
+		<!-- * STEREOTYPELIST                                                                                   * -->
+		<!-- **************************************************************************************************** -->
 		<STEREOTYPELIST>
 			<STEREOTYPE>
 				<NAME>universe</NAME>
@@ -38,6 +41,7 @@
 				<BASECLASSES>
 					<BASECLASS>UMLPackage</BASECLASS>
 				</BASECLASSES>
+				<RELATEDTAGDEFINITIONSET>package</RELATEDTAGDEFINITIONSET>
 				<SMALLICON>nucpackage.png</SMALLICON>
 			</STEREOTYPE>
 			<STEREOTYPE>
@@ -73,14 +77,56 @@
 				<SMALLICON>nucenumeration.png</SMALLICON>
 			</STEREOTYPE>
 		</STEREOTYPELIST>
-
+		<!-- **************************************************************************************************** -->
+		<!-- * TAGDEFINITIONSETLIST                                  											* -->
+		<!-- **************************************************************************************************** -->
 		<TAGDEFINITIONSETLIST>
+			<TAGDEFINITIONSET>
+				<NAME>package</NAME>
+				<BASECLASSES>
+					<BASECLASS>UMLPackage</BASECLASS>
+				</BASECLASSES>
+				<TAGDEFINITIONLIST>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Ignore</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Prefix</NAME>
+						<TAGTYPE>String</TAGTYPE>
+						<DEFAULTDATAVALUE>NUC</DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+				</TAGDEFINITIONLIST>
+			</TAGDEFINITIONSET>
 		</TAGDEFINITIONSETLIST>
-
+		<!-- **************************************************************************************************** -->
+		<!-- * DATATYPELIST                                                                          		    * -->
+		<!-- **************************************************************************************************** -->
 		<DATATYPELIST>
 		</DATATYPELIST>
-
+		<!-- **************************************************************************************************** -->
+		<!-- * ELEMENTPROTOTYPELIST                                                                             * -->
+		<!-- **************************************************************************************************** -->
 		<ELEMENTPROTOTYPELIST>
+			<ELEMENTPROTOTYPE>
+				<NAME>Note</NAME>
+				<DISPLAYNAME>Note</DISPLAYNAME>
+				<ICON>nucnote.png</ICON>
+				<DRAGTYPE>Rect</DRAGTYPE>
+				<BASEELEMENT>Note</BASEELEMENT>
+				<STEREOTYPENAME></STEREOTYPENAME>
+				<SHOWEXTENDEDNOTATION>True</SHOWEXTENDEDNOTATION>
+			</ELEMENTPROTOTYPE>		
+			<ELEMENTPROTOTYPE>
+				<NAME>Image</NAME>
+				<DISPLAYNAME>Image</DISPLAYNAME>
+				<ICON>nucimage.png</ICON>
+				<DRAGTYPE>Rect</DRAGTYPE>
+				<BASEELEMENT>Image</BASEELEMENT>
+				<STEREOTYPENAME></STEREOTYPENAME>
+				<SHOWEXTENDEDNOTATION>True</SHOWEXTENDEDNOTATION>
+			</ELEMENTPROTOTYPE>
 			<ELEMENTPROTOTYPE>
 				<NAME>Universe</NAME>
 				<DISPLAYNAME>Universe</DISPLAYNAME>
@@ -172,12 +218,19 @@
 				<SHOWEXTENDEDNOTATION>True</SHOWEXTENDEDNOTATION>
 			</ELEMENTPROTOTYPE>
 		</ELEMENTPROTOTYPELIST>
-
+		<!-- **************************************************************************************************** -->
+		<!-- * PALETTELIST		                                                                                * -->
+		<!-- **************************************************************************************************** -->
 		<PALETTELIST>
+			 
 			<PALETTE>
 				<NAME>Nucleus Structure</NAME>
 				<DISPLAYNAME>Nucleus Structure</DISPLAYNAME>
 				<PALETTEITEMLIST>
+					<PALETTEITEM>Text</PALETTEITEM>
+					<PALETTEITEM>Note</PALETTEITEM>
+					<PALETTEITEM>NoteLink</PALETTEITEM>
+					<PALETTEITEM>Image</PALETTEITEM>
 					<PALETTEITEM>Universe</PALETTEITEM>
 					<PALETTEITEM>Environment</PALETTEITEM>
 					<PALETTEITEM>Model</PALETTEITEM>
@@ -197,23 +250,24 @@
 					<PALETTEITEM>Association</PALETTEITEM>
 					<PALETTEITEM>DirectedAssociation</PALETTEITEM>					
 					<PALETTEITEM>Composition</PALETTEITEM>
+					<PALETTEITEM>Dependency</PALETTEITEM>
 				</PALETTEITEMLIST>
 			</PALETTE>
 		</PALETTELIST>
-
+		<!-- **************************************************************************************************** -->
+		<!-- * DIAGRAMTYPELIST                                                                                  * -->
+		<!-- **************************************************************************************************** -->
 		<DIAGRAMTYPELIST>
 			<DIAGRAMTYPE>
 				<NAME>NucleusClassDiagram</NAME>
 				<DISPLAYNAME>Nucleus Class Diagram</DISPLAYNAME>
 				<BASEDIAGRAM>ClassDiagram</BASEDIAGRAM>
 				<ICON>nucclassdiagram.bmp</ICON>
-				<AVAILABLEPALETTELIST>
+				<AVAILABLEPALETTELIST>					
 					<AVAILABLEPALETTE>Nucleus Domain</AVAILABLEPALETTE>
-					<AVAILABLEPALETTE>Nucleus Structure</AVAILABLEPALETTE>
-					
+					<AVAILABLEPALETTE>Nucleus Structure</AVAILABLEPALETTE>										
 				</AVAILABLEPALETTELIST>
 			</DIAGRAMTYPE>
 		</DIAGRAMTYPELIST>		
-
 	</BODY>
 </PROFILE>
