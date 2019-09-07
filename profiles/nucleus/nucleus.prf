@@ -82,6 +82,62 @@
 		<!-- **************************************************************************************************** -->
 		<TAGDEFINITIONSETLIST>
 			<TAGDEFINITIONSET>
+				<NAME>attribute</NAME>
+				<BASECLASSES>
+					<BASECLASS>UMLAttribute</BASECLASS>
+				</BASECLASSES>
+				<TAGDEFINITIONLIST>
+					<TAGDEFINITION lock="False">
+						<NAME>Initializer</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Lazy</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>None</LITERAL>
+							<LITERAL>Lazy</LITERAL>
+							<LITERAL>Instantiation</LITERAL>							
+						</LITERALS>
+					</TAGDEFINITION>															
+				</TAGDEFINITIONLIST>
+			</TAGDEFINITIONSET>
+			<TAGDEFINITIONSET>
+				<NAME>association</NAME>
+				<BASECLASSES>
+					<BASECLASS>UMLAssociation</BASECLASS>
+				</BASECLASSES>
+				<TAGDEFINITIONLIST>
+					<TAGDEFINITION lock="False">
+						<NAME>End1.Collection</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Ordered</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>Ordered</LITERAL>
+							<LITERAL>Sorted</LITERAL>
+							<LITERAL>Mapped</LITERAL>
+						</LITERALS>
+					</TAGDEFINITION>					
+					<TAGDEFINITION lock="False">
+						<NAME>End2.Collection</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Ordered</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>Ordered</LITERAL>
+							<LITERAL>Sorted</LITERAL>
+							<LITERAL>Mapped</LITERAL>
+						</LITERALS>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>End1.Collection Key</NAME>
+						<TAGTYPE>String</TAGTYPE>
+						<DEFAULTDATAVALUE>Name</DEFAULTDATAVALUE>
+					</TAGDEFINITION>					
+					<TAGDEFINITION lock="False">	
+						<NAME>End2.Collection Key</NAME>
+						<TAGTYPE>String</TAGTYPE>
+						<DEFAULTDATAVALUE>Name</DEFAULTDATAVALUE>
+					</TAGDEFINITION>					
+				</TAGDEFINITIONLIST>
+			</TAGDEFINITIONSET>
+			<TAGDEFINITIONSET>
 				<NAME>package</NAME>
 				<BASECLASSES>
 					<BASECLASS>UMLPackage</BASECLASS>
@@ -221,8 +277,7 @@
 		<!-- **************************************************************************************************** -->
 		<!-- * PALETTELIST		                                                                                * -->
 		<!-- **************************************************************************************************** -->
-		<PALETTELIST>
-			 
+		<PALETTELIST>			 
 			<PALETTE>
 				<NAME>Nucleus Structure</NAME>
 				<DISPLAYNAME>Nucleus Structure</DISPLAYNAME>
