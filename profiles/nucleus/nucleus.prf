@@ -96,7 +96,27 @@
 							<LITERAL>Lazy</LITERAL>
 							<LITERAL>Instantiation</LITERAL>							
 						</LITERALS>
-					</TAGDEFINITION>															
+					</TAGDEFINITION>	
+					<TAGDEFINITION lock="False">
+						<NAME>Durability</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Persistent</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>Persistent</LITERAL>
+							<LITERAL>Transient</LITERAL>
+							<LITERAL>Detached</LITERAL>	
+							<LITERAL>Volatil</LITERAL>								
+						</LITERALS>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Correlation</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Strong</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>Strong</LITERAL>
+							<LITERAL>Weak</LITERAL>							
+						</LITERALS>
+					</TAGDEFINITION>						
 				</TAGDEFINITIONLIST>
 			</TAGDEFINITIONSET>
 			<TAGDEFINITIONSET>
