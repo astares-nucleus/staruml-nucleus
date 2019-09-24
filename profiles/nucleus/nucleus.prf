@@ -72,7 +72,7 @@
 				<NAME>enumeration</NAME>
 				<DESCRIPTION></DESCRIPTION>
 				<BASECLASSES>
-					<BASECLASS>UMLClass</BASECLASS>
+					<BASECLASS>UMLEnumeration</BASECLASS>
 				</BASECLASSES>
 				<SMALLICON>nucenumeration.png</SMALLICON>
 			</STEREOTYPE>
