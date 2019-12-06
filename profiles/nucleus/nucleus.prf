@@ -82,7 +82,25 @@
 		<!-- **************************************************************************************************** -->
 		<TAGDEFINITIONSETLIST>
 			<TAGDEFINITIONSET>
-				<NAME>attribute</NAME>
+				<NAME>Package</NAME>
+				<BASECLASSES>
+					<BASECLASS>UMLPackage</BASECLASS>
+				</BASECLASSES>
+				<TAGDEFINITIONLIST>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Ignore</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Prefix</NAME>
+						<TAGTYPE>String</TAGTYPE>
+						<DEFAULTDATAVALUE></DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+				</TAGDEFINITIONLIST>
+			</TAGDEFINITIONSET>
+			<TAGDEFINITIONSET>
+				<NAME>Attribute</NAME>
 				<BASECLASSES>
 					<BASECLASS>UMLAttribute</BASECLASS>
 				</BASECLASSES>
@@ -120,7 +138,7 @@
 				</TAGDEFINITIONLIST>
 			</TAGDEFINITIONSET>
 			<TAGDEFINITIONSET>
-				<NAME>association</NAME>
+				<NAME>Association</NAME>
 				<BASECLASSES>
 					<BASECLASS>UMLAssociation</BASECLASS>
 				</BASECLASSES>
@@ -156,25 +174,7 @@
 						<DEFAULTDATAVALUE>Name</DEFAULTDATAVALUE>
 					</TAGDEFINITION>					
 				</TAGDEFINITIONLIST>
-			</TAGDEFINITIONSET>
-			<TAGDEFINITIONSET>
-				<NAME>package</NAME>
-				<BASECLASSES>
-					<BASECLASS>UMLPackage</BASECLASS>
-				</BASECLASSES>
-				<TAGDEFINITIONLIST>
-					<TAGDEFINITION lock="False">
-						<NAME>Generator Ignore</NAME>
-						<TAGTYPE>Boolean</TAGTYPE>
-						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
-					</TAGDEFINITION>
-					<TAGDEFINITION lock="False">
-						<NAME>Generator Prefix</NAME>
-						<TAGTYPE>String</TAGTYPE>
-						<DEFAULTDATAVALUE>NUC</DEFAULTDATAVALUE>
-					</TAGDEFINITION>
-				</TAGDEFINITIONLIST>
-			</TAGDEFINITIONSET>
+			</TAGDEFINITIONSET>			
 		</TAGDEFINITIONSETLIST>
 		<!-- **************************************************************************************************** -->
 		<!-- * DATATYPELIST                                                                          		    * -->
