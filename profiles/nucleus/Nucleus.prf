@@ -3,7 +3,7 @@
 	<HEADER>
 		<NAME>Nucleus</NAME>
 		<DISPLAYNAME>Astares Nucleus</DISPLAYNAME>
-		<DESCRIPTION>Astares Nucleus Modeling Profile - (c) 2019 by Astares.com</DESCRIPTION>
+		<DESCRIPTION>Astares Nucleus Modeling Profile - (c) 2020 by Astares.com</DESCRIPTION>
 		<AUTOINCLUDE>False</AUTOINCLUDE>
 	</HEADER>
 	<BODY>
@@ -29,7 +29,7 @@
 			</STEREOTYPE>
 			<STEREOTYPE>
 				<NAME>model</NAME>
-				<DESCRIPTION>A Nucleus model describes an environment (domain, workflows, etc.).</DESCRIPTION>
+				<DESCRIPTION>A Nucleus model describes a modeled environment (domain, workflows, etc.).</DESCRIPTION>
 				<BASECLASSES>
 					<BASECLASS>UMLModel</BASECLASS>
 				</BASECLASSES>
@@ -41,12 +41,12 @@
 				<BASECLASSES>
 					<BASECLASS>UMLPackage</BASECLASS>
 				</BASECLASSES>
-				<RELATEDTAGDEFINITIONSET>package</RELATEDTAGDEFINITIONSET>
+				<RELATEDTAGDEFINITIONSET>Package</RELATEDTAGDEFINITIONSET>
 				<SMALLICON>nucpackage.png</SMALLICON>
 			</STEREOTYPE>
 			<STEREOTYPE>
-				<NAME>category</NAME>
-				<DESCRIPTION>A category within a package</DESCRIPTION>
+				<NAME>tag</NAME>
+				<DESCRIPTION>A tag within a package</DESCRIPTION>
 				<BASECLASSES>
 					<BASECLASS>UMLPackage</BASECLASS>
 				</BASECLASSES>
@@ -61,7 +61,7 @@
 				<SMALLICON>nucclass.png</SMALLICON>
 			</STEREOTYPE>
 			<STEREOTYPE>
-				<NAME>facet</NAME>
+				<NAME>trait</NAME>
 				<DESCRIPTION></DESCRIPTION>
 				<BASECLASSES>
 					<BASECLASS>UMLClass</BASECLASS>
@@ -97,6 +97,11 @@
 						<TAGTYPE>String</TAGTYPE>
 						<DEFAULTDATAVALUE></DEFAULTDATAVALUE>
 					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Trait Prefix</NAME>
+						<TAGTYPE>String</TAGTYPE>
+						<DEFAULTDATAVALUE></DEFAULTDATAVALUE>
+					</TAGDEFINITION>
 				</TAGDEFINITIONLIST>
 			</TAGDEFINITIONSET>
 			<TAGDEFINITIONSET>
@@ -106,7 +111,17 @@
 				</BASECLASSES>
 				<TAGDEFINITIONLIST>
 					<TAGDEFINITION lock="False">
-						<NAME>Initializer</NAME>
+						<NAME>Generator Ignore Getter</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Ignore Setter</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>	
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Initializer</NAME>
 						<TAGTYPE>Enumeration</TAGTYPE>
 						<DEFAULTDATAVALUE>Lazy</DEFAULTDATAVALUE>
 						<LITERALS>
@@ -116,7 +131,7 @@
 						</LITERALS>
 					</TAGDEFINITION>	
 					<TAGDEFINITION lock="False">
-						<NAME>Durability</NAME>
+						<NAME>Generator Durability</NAME>
 						<TAGTYPE>Enumeration</TAGTYPE>
 						<DEFAULTDATAVALUE>Persistent</DEFAULTDATAVALUE>
 						<LITERALS>
@@ -127,7 +142,7 @@
 						</LITERALS>
 					</TAGDEFINITION>
 					<TAGDEFINITION lock="False">
-						<NAME>Correlation</NAME>
+						<NAME>Generator Correlation</NAME>
 						<TAGTYPE>Enumeration</TAGTYPE>
 						<DEFAULTDATAVALUE>Strong</DEFAULTDATAVALUE>
 						<LITERALS>
@@ -144,7 +159,27 @@
 				</BASECLASSES>
 				<TAGDEFINITIONLIST>
 					<TAGDEFINITION lock="False">
-						<NAME>End1.Collection</NAME>
+						<NAME>Generator Ignore Getter</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Ignore Setter</NAME>
+						<TAGTYPE>Boolean</TAGTYPE>
+						<DEFAULTDATAVALUE>False</DEFAULTDATAVALUE>
+					</TAGDEFINITION>	
+					<TAGDEFINITION lock="False">
+						<NAME>Generator Initializer</NAME>
+						<TAGTYPE>Enumeration</TAGTYPE>
+						<DEFAULTDATAVALUE>Lazy</DEFAULTDATAVALUE>
+						<LITERALS>
+							<LITERAL>None</LITERAL>
+							<LITERAL>Lazy</LITERAL>
+							<LITERAL>Instantiation</LITERAL>							
+						</LITERALS>
+					</TAGDEFINITION>
+					<TAGDEFINITION lock="False">
+						<NAME>Generator End1.Collection</NAME>
 						<TAGTYPE>Enumeration</TAGTYPE>
 						<DEFAULTDATAVALUE>Ordered</DEFAULTDATAVALUE>
 						<LITERALS>
@@ -154,7 +189,7 @@
 						</LITERALS>
 					</TAGDEFINITION>					
 					<TAGDEFINITION lock="False">
-						<NAME>End2.Collection</NAME>
+						<NAME>Generator End2.Collection</NAME>
 						<TAGTYPE>Enumeration</TAGTYPE>
 						<DEFAULTDATAVALUE>Ordered</DEFAULTDATAVALUE>
 						<LITERALS>
@@ -164,12 +199,12 @@
 						</LITERALS>
 					</TAGDEFINITION>
 					<TAGDEFINITION lock="False">
-						<NAME>End1.Collection Key</NAME>
+						<NAME>Generator End1.Collection Key</NAME>
 						<TAGTYPE>String</TAGTYPE>
 						<DEFAULTDATAVALUE>Name</DEFAULTDATAVALUE>
 					</TAGDEFINITION>					
 					<TAGDEFINITION lock="False">	
-						<NAME>End2.Collection Key</NAME>
+						<NAME>Generator End2.Collection Key</NAME>
 						<TAGTYPE>String</TAGTYPE>
 						<DEFAULTDATAVALUE>Name</DEFAULTDATAVALUE>
 					</TAGDEFINITION>					
