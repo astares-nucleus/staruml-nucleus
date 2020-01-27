@@ -14,15 +14,15 @@
 			<MODEL name="Nucleus" stereotypeProfile="Nucleus" stereotypeName="universe">
 			    <SUBSYSTEM name="Pharo" stereotypeProfile="Nucleus" stereotypeName="environment">
 					<MODEL name="Pharo Image" stereotypeProfile="Nucleus" stereotypeName="model">
-						<PACKAGE name="Pharo-Package" stereotypeProfile="pharo" stereotypeName="package">
+						<PACKAGE name="Pharo-Package" stereotypeProfile="Pharo" stereotypeName="package">
 						</PACKAGE>
 					</MODEL>
 				</SUBSYSTEM>
 				<SUBSYSTEM name="Nucleus" stereotypeProfile="Nucleus" stereotypeName="environment">
 					<MODEL name="Nucleus App" stereotypeProfile="Nucleus" stereotypeName="model">			
 						<PACKAGE name="Nucleus-App" stereotypeProfile="Nucleus" stereotypeName="package">
-							<DIAGRAM type="class" diagramTypeProfile="Nucleus" diagramTypeName="NucleusClassDiagram" name="Main"/>
-							<PACKAGE name="Base" stereotypeProfile="Nucleus" stereotypeName="category">							
+							<DIAGRAM type="class" diagramTypeProfile="Nucleus" diagramTypeName="Class Diagram " name="Main"/>
+							<PACKAGE name="Base" stereotypeProfile="Nucleus" stereotypeName="tag">							
 							</PACKAGE>
 						</PACKAGE>
 					</MODEL>

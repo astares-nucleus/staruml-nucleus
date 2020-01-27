@@ -369,8 +369,8 @@
 		<!-- **************************************************************************************************** -->
 		<DIAGRAMTYPELIST>
 			<DIAGRAMTYPE>
-				<NAME>NucleusClassDiagram</NAME>
-				<DISPLAYNAME>Nucleus Class Diagram</DISPLAYNAME>
+				<NAME>Class Diagram </NAME>
+				<DISPLAYNAME>Class Diagram</DISPLAYNAME>
 				<BASEDIAGRAM>ClassDiagram</BASEDIAGRAM>
 				<ICON>nucclassdiagram.bmp</ICON>
 				<AVAILABLEPALETTELIST>					
@@ -379,5 +379,18 @@
 				</AVAILABLEPALETTELIST>
 			</DIAGRAMTYPE>
 		</DIAGRAMTYPELIST>		
+		
+		<MODELPROTOTYPELIST>
+			<MODELPROTOTYPE>
+			    <NAME>Project </NAME>
+			    <DISPLAYNAME>Model</DISPLAYNAME>
+			    <ICON>nucleusproject.bmp</ICON>
+			    <BASEMODEL>Model</BASEMODEL>
+			    <STEREOTYPENAME>model</STEREOTYPENAME>
+			    <CONTAINERMODELLIST>
+			        <CONTAINERMODEL type="UMLProject"/>
+			    </CONTAINERMODELLIST>
+			</MODELPROTOTYPE>
+		</MODELPROTOTYPELIST>
 	</BODY>
 </PROFILE>
